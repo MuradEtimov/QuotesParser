@@ -37,15 +37,16 @@ Run the script:
 ```
 ./run_test.sh
 ```
-### On Windows
+# On Windows
 Double-click run_test.bat or run it from Command Prompt:
 ```
 run_test.bat
 ```
 After running, the Excel file Quotes.xlsx will be created in the project folder.
-Installing Dependencies Manually
 
-###If you prefer to set up manually:
+# Installing Dependencies Manually
+
+If you prefer to set up manually:
 
 Create and activate a virtual environment:
 
@@ -69,10 +70,10 @@ python Exel_lol.py
 ```
 Notes
 
-    The Excel file is generated automatically; you don’t need to create it manually.
+The Excel file is generated automatically; you don’t need to create it manually.
 
-    Linux users can use run_test.sh, Windows users can use run_test.bat for one-click execution.
+Linux users can use run_test.sh, Windows users can use run_test.bat for one-click execution.
 
-    Generated files (Quotes.xlsx, temp_env, __pycache__) should not be included in GitHub and are ignored via .gitignore.
+Generated files (Quotes.xlsx, temp_env, __pycache__) should not be included in GitHub and are ignored via .gitignore.
 
 
