@@ -32,13 +32,12 @@ This project scrapes quotes from [quotes.toscrape.com](https://quotes.toscrape.c
 ```bash
 chmod +x run_test.sh
 
-    Run the script:
+Run the script:
 
 ./run_test.sh
 
-On Windows
-
-    Double-click run_test.bat or run it from Command Prompt:
+### On Windows
+Double-click run_test.bat or run it from Command Prompt:
 
 run_test.bat
 
@@ -47,7 +46,7 @@ Installing Dependencies Manually
 
 If you prefer to set up manually:
 
-    Create and activate a virtual environment:
+Create and activate a virtual environment:
 
 # Linux / Mac
 python -m venv venv
@@ -57,11 +56,11 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-    Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
-    Run the main script:
+Run the main script:
 
 python Exel_lol.py
 
@@ -72,3 +71,4 @@ Notes
     Linux users can use run_test.sh, Windows users can use run_test.bat for one-click execution.
 
     Generated files (Quotes.xlsx, temp_env, __pycache__) should not be included in GitHub and are ignored via .gitignore.
+
